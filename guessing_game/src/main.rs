@@ -1,6 +1,11 @@
 use std::io;
+
 fn main() {
     println!("Guess the number!");
+
+    /*Generamos un numero aleatorio*/
+    let secret_number = rand::random_range(0..99);
+    //println!("The secret number is {}", secret_number);
 
     println!("Please input your guess.");
 
